@@ -1,0 +1,85 @@
+/* Write your code here. */
+.w-l-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff33;
+  margin: 20px;
+  width: 80%;
+  height: 80%;
+  background-color: #ffffff33;
+  border-radius: 12px;
+  padding: 40px;
+}
+.w-l-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-l-image {
+  height: 40%;
+  width: 40%;
+}
+.text-1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.text-2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.text-3 {
+  color: #6a59ff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.play-button {
+  background-color: #ffce27;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 12px;
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .w-l-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w-l-image {
+    order: 0;
+    height: 60%;
+    width: 80%;
+  }
+  .w-l-text-container {
+    order: 1;
+    margin: 5px;
+  }
+  .text-1 {
+    font-size: 30px;
+  }
+  .text-2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  .text-3 {
+    font-size: 20px;
+  }
+}
